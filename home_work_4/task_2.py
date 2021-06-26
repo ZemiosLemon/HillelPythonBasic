@@ -1,52 +1,51 @@
-def xxx():
-    ls = []
+def user_input() -> list:
+    main_list = []
     while True:
-        x = int(input())
+        x = int(input('Введите число:'))
         if x == 0:
             break
-        ls.append(x)
-    return ls
+        main_list.append(x)
+    return main_list
 
 
-def lenn(ls: list) -> int:  # - количество введённых чисел (завершающий 0 не считается)
+def length(main_list: list) -> int:  # - количество введённых чисел (завершающий 0 не считается)
     counter = 0
-    for num in ls:
+    for _ in main_list:
         counter += 1
     return counter
 
 
-def summ(ls: list) -> int:  # - их сумму
+def sum_list(main_list: list) -> int:  # - их сумму
     counter = 0
-    for num in ls:
+    for num in main_list:
         counter += num
     return counter
 
 
-def multiplication(ls: list) -> int:  # - произведение
+def multiplication(main_list: list) -> int:  # - произведение
     counter = 1
-    for num in ls:
+    for num in main_list:
         counter *= num
     return counter
 
 
-def mean(ls: list) -> int:  # - среднее арифметическое (не считая завершающего числа 0)
-    ave = summ(ls) / lenn(ls)
-    return ave
+def mean(main_list: list) -> float:  # - среднее арифметическое (не считая завершающего числа 0)
+    average = sum_list(main_list) / length(main_list)
+    return average
 
 
-def maxx(
-        ls: list) -> tuple[Any, int]:  # '''определить значение и порядковый номер наибольшего элемента последовательности.Если наибольших элементов несколько, выведите порядковый номер первого из них.'''
-    maxx = ls[0]
-    for num in ls:
-        if num > maxx:
-            maxx = num
-    return maxx, ls.index(maxx)
+def max_list(main_list: list) -> tuple[int, int]:
+    maximum = main_list[0]
+    for num in main_list:
+        if num > maximum:
+            maximum = num
+    return maximum, main_list.index(maximum)
 
 
-def even_odd(ls: list) -> int:  # - определить количество чётных и не чётных элементов в последовательности
+def even_odd(main_list: list) -> tuple[int, int]:
     even = 0
     odd = 0
-    for num in ls:
+    for num in main_list:
         if num % 2 == 0:
             even += 1
         else:
@@ -54,34 +53,38 @@ def even_odd(ls: list) -> int:  # - определить количество ч
     return even, odd
 
 
-def max_2(ls: list) -> int:  # - определить значение второго по величине элемента в этой последовательности
-    max_1, max_2 = ls[0], ls[0]
-    for num in ls:
-        if num > max_1:
-            max_2 = max_1
-            max_1 = num
-        elif num > max_2:
-            max_2 = num
-    return max_2
+def max_2(main_list: list) -> int:  # - определить значение второго по величине элемента в этой последовательности
+    maximum_1, maximum_2 = main_list[0], main_list[0]
+    for num in main_list:
+        if num > maximum_1:
+            maximum_2 = maximum_1
+            maximum_1 = num
+        elif num > maximum_2:
+            maximum_2 = num
+    return maximum_2
 
 
-def equally_max(ls: list) -> int:  # - определите, сколько элементов этой последовательности равны ее наибольшему элементу
-
+def equally_max(main_list: list) -> int:
     count = 0
-    for num in ls:
-        if num == maxx(ls):
+    for num in main_list:
+        if num == max(main_list):
             count += 1
     return count
 
 
-ls = xxx()
-def all_func
-print(ls)
-print('Количество', lenn(ls))
-print('Summ', summ(ls))
-print('Среднее', mean(ls))
-print('Произведение', multiplication(ls))
-print('Чет, нечет', even_odd(ls))
-print('Max', maxx(ls))
-print('Max 2', max_2(ls))
-print('Равно MAX', equally_max(ls))
+def all_func():
+    main_list = user_input()
+    print(main_list)
+    call_all_functions = {'Количество чисел:': length(main_list), 'Сумма чисел:': sum_list(main_list),
+                          'Среднее арифметическое чисел:': mean(main_list),
+                          'Произведение чисел:': multiplication(main_list),
+                          'Количество четных чисел:': even_odd(main_list)[0],
+                          'Количество нечетных чисел:': even_odd(main_list)[1],
+                          'Максимум:': max_list(main_list)[0], 'Индекс максимума:': max_list(main_list)[1],
+                          'Второй максимум:': max_2(main_list),
+                          'Количество чисел равных максимуму:': equally_max(main_list)}
+    for key, func in call_all_functions.items():
+        print(key, func)
+
+
+all_func()
