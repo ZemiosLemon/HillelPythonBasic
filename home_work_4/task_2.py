@@ -8,28 +8,28 @@ def user_input() -> list:
     return main_list
 
 
-def length(main_list: list) -> int:  # - количество введённых чисел (завершающий 0 не считается)
+def length(main_list: list) -> int:
     counter = 0
     for _ in main_list:
         counter += 1
     return counter
 
 
-def sum_list(main_list: list) -> int:  # - их сумму
+def sum_list(main_list: list) -> int:
     counter = 0
     for num in main_list:
         counter += num
     return counter
 
 
-def multiplication(main_list: list) -> int:  # - произведение
+def multiplication(main_list: list) -> int:
     counter = 1
     for num in main_list:
         counter *= num
     return counter
 
 
-def mean(main_list: list) -> float:  # - среднее арифметическое (не считая завершающего числа 0)
+def mean(main_list: list) -> float:
     average = sum_list(main_list) / length(main_list)
     return average
 
@@ -53,7 +53,7 @@ def even_odd(main_list: list) -> tuple[int, int]:
     return even, odd
 
 
-def max_2(main_list: list) -> int:  # - определить значение второго по величине элемента в этой последовательности
+def max_2(main_list: list) -> int:
     maximum_1, maximum_2 = main_list[0], main_list[0]
     for num in main_list:
         if num > maximum_1:
