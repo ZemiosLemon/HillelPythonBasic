@@ -1,7 +1,6 @@
 from random import randint
 
 some_list = [randint(10, 20) for i in range(10)]
-print(some_list)
 
 
 def change_num(some_list: list):
