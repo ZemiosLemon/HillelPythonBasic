@@ -14,6 +14,7 @@ def change_num(some_list: list):
             summa += 1
     return new_list, summa
 
+
 print(random_list)
 print(change_num(random_list)[0])
 print(change_num(random_list)[1])
