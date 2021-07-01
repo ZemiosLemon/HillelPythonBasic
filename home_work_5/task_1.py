@@ -1,3 +1,6 @@
+import random
+
+
 def is_prime(a: int) -> bool:
     bool_prime = True
     sum_prime = 0
@@ -10,6 +13,9 @@ def is_prime(a: int) -> bool:
                 bool_prime = True
     return bool_prime
 
+num = random.randint(0, 1001)
+print(num)
+print(is_prime(num))
 
 
 
