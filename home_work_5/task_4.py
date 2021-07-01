@@ -3,13 +3,42 @@
 from random import randint
 
 some_list = [randint(10, 20) for i in range(10)]
+print(some_list)
+def change_num(some_list: list):
+    new_list = []
+    sum = 0
+    for num in some_list:
+        if num % 2 == 0:
+            new_list.append(num)
+        else:
+            new_list.append(0)
+            sum += 1
+    return new_list, sum
 
-print(some_list)
-for i in some_list:
-    if i % 2 == 0:
-        print(i)
-       
-    print(i)
-print(some_list)
+
+print(change_num(some_list)[0])
+print(change_num(some_list)[1])
+
+
+
+
+
+
+
+
+
+
+
+# print(some_list)
+# new_list = []
+# for i in some_list:
+#     if i % 2 == 0:
+#         i=0
+#         new_list.append(i)
+#
+#     print(new_list)
+#
+#     print(i)
+#print(some_list)
 
 
