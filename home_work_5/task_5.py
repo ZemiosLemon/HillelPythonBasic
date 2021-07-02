@@ -1,4 +1,4 @@
-def square(a: int) -> tuple[int, int, float]:
+def square(a: int) -> (int, int, float):
     perimeter = a * 4
     sq = a * a
     d = (2*a)**0.5
