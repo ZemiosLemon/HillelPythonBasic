@@ -3,7 +3,7 @@ from random import randint
 random_list = [randint(10, 20) for i in range(10)]
 
 
-def change_num(some_list: list):
+def change_num(some_list: list) -> (list, int):
     new_list = []
     summa = 0
     for num in some_list:
