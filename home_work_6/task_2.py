@@ -2,7 +2,7 @@ import time
 
 
 def countdown(func):
-    def time_return():
+    def return_time():
         num = 3
         while num:
             print(num)
@@ -19,16 +19,3 @@ def what_time_is_it_now() -> str:
 
 
 print(what_time_is_it_now())
-
-#
-# def func_count():
-#     num = 3
-#     while num:
-#         print(num)
-#         time.sleep(1)
-#         num -= 1
-#     return
-#
-#
-# print(func_count())
-# print(time.strftime('%H:%M'))
