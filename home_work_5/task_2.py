@@ -1,7 +1,11 @@
-def main():
-    text = input()
-    print('Количество слов:', len(text.split()))
-    print('Количество символов:', len(text))
+user_text = input()
 
 
-main()
+def main(text: str) -> (int, int):
+    words = len(text.split())
+    symbols = len(text)
+    return words, symbols
+
+
+print('Количество слов:', main(user_text)[0])
+print('Количество символов:', main(user_text)[1])
