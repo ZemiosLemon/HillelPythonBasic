@@ -3,19 +3,12 @@ import datetime
 
 
 def duration():
-    with open('acdc.json') as f:
+    with open('acdc (3).json') as f:
         file_dict = json.load(f)
-        summa = 0
-        for num in range(10):
-            summa += int(file_dict['album']['tracks']['track'][num]['duration'])
-        return summa
+        seconds = 0
+        for track in file_dict['album']['tracks']['track']:
+            seconds += int(track['duration'])
+        return datetime.timedelta(seconds=seconds)
 
 
-def conversion_in_seconds(func):
-    size = datetime.timedelta(seconds=func)
-    return size
-
-
-
-print(conversion_in_seconds(duration()))
-
+print(duration())
