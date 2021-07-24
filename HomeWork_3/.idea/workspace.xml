@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="116a29f7-9450-4646-85da-999251e1b4e1" name="Default Changelist" comment="done">
+      <change beforePath="$PROJECT_DIR$/Ex_1_The_Sum_of_the_Number_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_1_The_Sum_of_the_Number_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_2_Fractional_Part.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_3_Reverse_List.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_4_List_of_Six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_5_Random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_6_Chess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_7_Factorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_10/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_10/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_10/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_10/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_5/task_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_6/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_6/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_6/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_6/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work_6/task_4.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1u7hMn1LlRR5ZKf4hi00iPh8rs3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework_3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Ex_5_Random">
+    <configuration name="Ex_4_List_of_Six" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork#3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_4_List_of_Six.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex_5_Random" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork#3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_5_Random.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex_6_Chess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork#3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_6_Chess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex_7_Factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork#3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_7_Factorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ccccc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork#3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ccccc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Ex_5_Random" />
+        <item itemvalue="Python.Ex_6_Chess" />
+        <item itemvalue="Python.ccccc" />
+        <item itemvalue="Python.Ex_7_Factorial" />
+        <item itemvalue="Python.Ex_4_List_of_Six" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="116a29f7-9450-4646-85da-999251e1b4e1" name="Default Changelist" comment="" />
+      <created>1624022489524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624022489524</updated>
+    </task>
+    <task id="LOCAL-00001" summary="not yet">
+      <created>1624023552937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624023552937</updated>
+    </task>
+    <task id="LOCAL-00002" summary="done">
+      <created>1624023724256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624023724256</updated>
+    </task>
+    <task id="LOCAL-00003" summary="done">
+      <created>1624026158967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624026158967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="done">
+      <created>1624029070457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624029070457</updated>
+    </task>
+    <task id="LOCAL-00005" summary="done">
+      <created>1624029764499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624029764499</updated>
+    </task>
+    <task id="LOCAL-00006" summary="done">
+      <created>1624034227168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624034227168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="done">
+      <created>1624034641679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624034641679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="done">
+      <created>1624034860379</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624034860379</updated>
+    </task>
+    <task id="LOCAL-00009" summary="done">
+      <created>1624106018089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624106018089</updated>
+    </task>
+    <task id="LOCAL-00010" summary="done">
+      <created>1624106199795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624106199795</updated>
+    </task>
+    <task id="LOCAL-00011" summary="done">
+      <created>1624108768306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624108768306</updated>
+    </task>
+    <task id="LOCAL-00012" summary="done">
+      <created>1624109314815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624109314815</updated>
+    </task>
+    <task id="LOCAL-00013" summary="done">
+      <created>1624115806545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624115806545</updated>
+    </task>
+    <task id="LOCAL-00014" summary="done">
+      <created>1624121034562</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624121034562</updated>
+    </task>
+    <task id="LOCAL-00015" summary="done">
+      <created>1624123397783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624123397783</updated>
+    </task>
+    <task id="LOCAL-00016" summary="done">
+      <created>1624123453028</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624123453028</updated>
+    </task>
+    <task id="LOCAL-00017" summary="done">
+      <created>1624123533372</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624123533372</updated>
+    </task>
+    <task id="LOCAL-00018" summary="done">
+      <created>1624123789028</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624123789028</updated>
+    </task>
+    <task id="LOCAL-00019" summary="done">
+      <created>1624131303871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624131303871</updated>
+    </task>
+    <task id="LOCAL-00020" summary="done">
+      <created>1624133088089</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624133088089</updated>
+    </task>
+    <task id="LOCAL-00021" summary="done">
+      <created>1624133610628</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624133610628</updated>
+    </task>
+    <task id="LOCAL-00022" summary="done">
+      <created>1624136453903</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624136453903</updated>
+    </task>
+    <task id="LOCAL-00023" summary="done">
+      <created>1624137208254</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624137208254</updated>
+    </task>
+    <task id="LOCAL-00024" summary="done">
+      <created>1624137759811</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624137759811</updated>
+    </task>
+    <task id="LOCAL-00025" summary="done">
+      <created>1624137866566</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1624137866566</updated>
+    </task>
+    <task id="LOCAL-00026" summary="done">
+      <created>1624137910917</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1624137910918</updated>
+    </task>
+    <task id="LOCAL-00027" summary="done">
+      <created>1624138249163</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1624138249163</updated>
+    </task>
+    <task id="LOCAL-00028" summary="done">
+      <created>1624189418641</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624189418641</updated>
+    </task>
+    <task id="LOCAL-00029" summary="done">
+      <created>1624189995321</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1624189995321</updated>
+    </task>
+    <task id="LOCAL-00030" summary="done">
+      <created>1624191433779</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1624191433779</updated>
+    </task>
+    <task id="LOCAL-00031" summary="done">
+      <created>1624215504528</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1624215504528</updated>
+    </task>
+    <task id="LOCAL-00032" summary="done">
+      <created>1624215644048</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1624215644049</updated>
+    </task>
+    <task id="LOCAL-00033" summary="done">
+      <created>1624215830081</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624215830081</updated>
+    </task>
+    <task id="LOCAL-00034" summary="done">
+      <created>1624707223566</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1624707223566</updated>
+    </task>
+    <task id="LOCAL-00035" summary="done">
+      <created>1624707469808</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1624707469808</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="not yet" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+</project>
