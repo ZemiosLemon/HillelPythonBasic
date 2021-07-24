@@ -12,9 +12,9 @@ def longest_word(line: str) -> str:
             return split_line[new_list.index(max_word)]
 
 
-def chit_longest_word(line: str) -> str:
+def cheat_longest_word(line: str) -> str:
     return max(line.split(), key=len)
 
 
 print(longest_word(longest_word_line))
-print(chit_longest_word(longest_word_line))
+print(cheat_longest_word(longest_word_line))
