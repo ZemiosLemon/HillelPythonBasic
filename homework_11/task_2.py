@@ -4,8 +4,9 @@ poli_list = ['ШАЛАШ', 'КАЗАК', 'ДЕД', 'ДОХОД', 'ЛЕД', '1323
 def verification(user_list: list):
     for string in user_list:
         if string == string[::-1]:
-            print(string)
+            print(string, 'Палиндромом' )
+        else:
+            print(string, 'НЕ палиндромом')
 
 
 verification(poli_list)
-# print(verification(poli_list))
