@@ -1,4 +1,4 @@
-list_user = list(range(10))
+list_user = list(range(1, 11))
 n = int(input())
 
 
