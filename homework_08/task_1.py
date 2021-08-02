@@ -1,10 +1,8 @@
 import argparse
 import time
-
 import requests
 import datetime
 import json
-
 
 
 if __name__ == '__main__':
@@ -30,24 +28,25 @@ def symbols_check():
     with open("symbols.json", "r") as file:
         check_list = json.load(file)
         if args.currency_from not in check_list['symbols'] or args.currency_to not in check_list['symbols']:
-            return 11
+            return 'USD', 'UAH'
         else:
-            return 22
-
-# print(symbols_check())
-# print(type(date_check()))
+            return args.currency_from, args.currency_to
 
 
-# result_list = []
-final_list = [['date', 'from', 'to', 'amount', 'rate', 'result']]
-ddd = date_check()
-while ddd < datetime.datetime.now():
-    get_list = requests.get("https://api.exchangerate.host/convert",
-                                 params={"from": args.currency_from, "to": args.currency_to,
-                                         "amount": args.amount, "date": ddd}).json()
-    ddd += datetime.timedelta(days=1)
-    result_list = [get_list['date'], args.currency_from, args.currency_to, args.amount, get_list['info']['rate'], get_list['result']]
-    final_list.append(result_list)
-    time.sleep(1)
-for num in final_list:
-    print(num)
+def exchange():
+    exchange_from, exchange_to = symbols_check()[0], symbols_check()[1]
+    final_list = [['date', 'from', 'to', 'amount', 'rate', 'result']]
+    ddd = date_check()
+    while ddd < datetime.datetime.now():
+        get_list = requests.get("https://api.exchangerate.host/convert",
+                                     params={"from": exchange_from, "to": exchange_to,
+                                             "amount": args.amount, "date": ddd}).json()
+        ddd += datetime.timedelta(days=1)
+        result_list = [get_list['date'], exchange_from, exchange_to, args.amount, get_list['info']['rate'], get_list['result']]
+        final_list.append(result_list)
+        time.sleep(1)
+    for num in final_list:
+        print(num)
+
+
+exchange()
