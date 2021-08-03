@@ -42,7 +42,7 @@ def exchange():
                                 params={'from': exchange_from, 'to': exchange_to,
                                         'amount': args.amount, 'date': date_start}).json()
         date_start += datetime.timedelta(days=1)
-        result_list = [get_list['date'], exchange_from, exchange_to, get_list['info']['rate'], get_list['result']]
+        result_list = [get_list['date'], exchange_from, exchange_to, args.amount, get_list['info']['rate'], get_list['result']]
         final_list.append(result_list)
         time.sleep(1)
     for num in final_list:
