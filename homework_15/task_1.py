@@ -1,18 +1,14 @@
 import csv
 import re
-#
-# x = {'A': 'А', 'B': 'В', 'E': 'Е', 'I': 'І', 'K': 'К', 'M': 'М', 'H': 'Н',
-#      'O': 'О', 'P': 'Р', 'C': 'С', 'T': 'Т', 'Y': 'У', 'X': 'Х'}
-# toyota = "BH2112СТ".translate(str.maketrans({'A': 'А', 'B': 'В', 'E': 'Е', 'I': 'І', 'K': 'К', 'M': 'М', 'H': 'Н',
-#                                             'O': 'О', 'P': 'Р', 'C': 'С', 'T': 'Т', 'Y': 'У', 'X': 'Х'}))
+import sys
 
 
 def check_number(auto_number):
-    match = re.fullmatch(r'([А-ЯA-Z]){2}\d{4}[А-ЯA-Z]{2}', auto_number)
+    match = re.findall(r"([А-Я]){2}\d{4}[А-Я]{2}", auto_number)
     if match:
         return auto_number[:2]
     else:
-        return 'Не является автомобильным номером'
+        return sys.exit('Не является автомобильным номером')
 
 
 def get_csv_data():
