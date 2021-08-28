@@ -1,7 +1,6 @@
 import re
 
 
-input_number = input()
 
 
 def format_number(phone_number: str):
@@ -13,4 +12,4 @@ def format_number(phone_number: str):
         return 'Failed to recognize number'
 
 
-
+print(format_number('063-999-99-99'))
