@@ -32,17 +32,17 @@ def check_row(row):
 def get_data_csv():
     with open(args.o, mode='r', encoding='utf-8') as r_file:
         file_reader = csv.DictReader(r_file, delimiter=';')
-        polished_data = []
+        result = []
         for row in file_reader:
             if check_row(row):
-                polished_data.append({'D_REG': row['D_REG'],
+                result.append({'D_REG': row['D_REG'],
                                       'BRAND': row['BRAND'],
                                       'MODEL': row['MODEL'],
                                       'COLOR': row['COLOR'],
                                       'MAKE_YEAR': row['MAKE_YEAR'],
                                       'FUEL': row['FUEL'],
                                       'N_REG_NEW': row['N_REG_NEW']})
-    return polished_data
+    return result
 
 
 def get_filename() -> str:
