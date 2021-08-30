@@ -27,12 +27,6 @@ class City:
         for num in range(amount):
             self.list_streets.append(Street(num))
 
-    def delete_street(self, street_id):
-        self.list_streets.pop(street_id)
-
-    def add_street(self):
-        self.list_streets.append(Street(len(self.list_streets)))
-
     def population(self):
         populations = 0
         for street in self.list_streets:
@@ -40,13 +34,15 @@ class City:
                 populations += house.settlers
             return populations
 
-
     def table_city(self):
         with open('city_population.txt.txt', 'w') as file:
-                file.write(f'{"Улица".rjust(10)}{"Дом".rjust(10)}Население\n')
-                for street in self.list_street:
-                    for house in street.list_houses:
-                        file.write(f'{str(street.street_id).rjust(10)}{str(house.house_id).rjust(10)}{str(house.settlers)}\n')
+            file.write(f"{'Улица'.rjust(10)}{'Дом'.rjust(5)}{'Население'.rjust(10)}\n")
+            for street in self.list_streets:
+                for house in street.list_houses:
+                    file.write(
+                        f'{str(street.street_id).rjust(10)}{str(house.house_id).rjust(5)}'
+                        f'{str(house.settlers).rjust(10)}\n')
+
 
 gotham_city = City()
 print(gotham_city.population())
